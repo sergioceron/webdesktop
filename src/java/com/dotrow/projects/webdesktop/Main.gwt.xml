@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <inherits name='com.extjs.gxt.ui.GXT'/>
+    <inherits name="com.google.gwt.user.User"/>
+    <inherits name="resources.src.com.extjs.gxt.samples.resources.Resources"/>
+    <inherits name='com.extjs.gxt.desktop.WebDesktop' />
+    <servlet path="/filesystemservice" class="com.dotrow.projects.webdesktop.server.FileSystemServiceImpl"/>
+    <entry-point class="com.dotrow.projects.webdesktop.client.MainEntryPoint"/>
+	<!-- Do not define servlets here, use web.xml -->
+</module>
